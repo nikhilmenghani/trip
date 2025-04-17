@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 40px;
+    margin: 20px;
     font-size: 16px;
     line-height: 1.7;
     color: #333;
@@ -15,17 +15,19 @@ body {
   
   .tab-buttons {
     margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
   }
   
   .tab-buttons button {
     padding: 10px 18px;
-    margin-right: 8px;
-    cursor: pointer;
     border: 1px solid #ccc;
     background-color: #f8f9fa;
     font-weight: 600;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    flex: 1 0 auto;
   }
   
   .tab-buttons button.active {
@@ -89,5 +91,49 @@ body {
   a:hover {
     text-decoration: underline;
     color: #002b80;
+  }
+  
+  @media screen and (max-width: 768px) {
+    body {
+      margin: 10px;
+      font-size: 15px;
+    }
+  
+    table, thead, tbody, th, td, tr {
+      display: block;
+      width: 100%;
+    }
+  
+    thead {
+      display: none;
+    }
+  
+    tr {
+      margin-bottom: 15px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      border-radius: 6px;
+      overflow: hidden;
+      background: #fff;
+    }
+  
+    td {
+      padding: 10px;
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 50%;
+    }
+  
+    td::before {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+      font-weight: bold;
+      color: #555;
+      content: attr(data-label);
+    }
   }
   
