@@ -75,17 +75,15 @@
 <div class="tab-buttons">
   <button class="tab-link active" onclick="switchTab('itinerary')">Itinerary</button>
   <button class="tab-link" onclick="switchTab('summary')">Activity Summary</button>
+  <button class="tab-link" onclick="switchTab('transport')">Transport</button>
 </div>
 
 <div id="itinerary" class="tab-content active">
-<!-- Itinerary content will go here -->
-<h2>Newark & NYC Trip Itinerary (April 17–21)</h2>
-<p><strong>Hotel:</strong> <a href="https://www.google.com/maps/dir/?api=1&destination=414+W+46th+St,+New+York,+NY+10036">414 W 46th St, Hell’s Kitchen, New York, NY 10036</a></p>
-<p><strong>Preferred Transport:</strong> Public Transit & Bus</p>
-<hr>
+  <h2>Newark & NYC Trip Itinerary (April 17–21)</h2>
 
-<h3>Day 1 – April 17: Arrival & Midtown Check-in</h3>
-<table>
+  <details>
+    <summary><strong>Day 1 – April 17: Arrival & Midtown Check-in</strong></summary>
+    <table>
   <thead>
     <tr>
       <th>Time</th><th>Duration</th><th>Activity</th><th>Type</th><th>Reference / Link</th><th>Travel Time</th><th>Map</th>
@@ -101,192 +99,260 @@
     <tr><td>10:30 PM</td><td>30 mins</td><td>Times Square evening stroll</td><td>Attraction</td><td><a href="https://www.timessquarenyc.org/">Times Square</a></td><td>~10 mins walk</td><td><a href="https://www.google.com/maps/dir/Saravanaa+Bhavan,+NYC/Times+Square,+NYC/">Map</a></td></tr>
   </tbody>
 </table>
+  </details>
 
-<h3>Day 2 – April 18: Midtown NYC Highlights</h3>
-<table>
-  <thead>
-    <tr>
-      <th>Time</th><th>Duration</th><th>Activity</th><th>Type</th><th>Reference / Link</th><th>Travel Time</th><th>Map</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>10:30 AM</td><td>30 mins</td><td>Coffee break at Bird & Branch (near hotel)</td><td>Meal</td><td><a href="https://www.birdandbranchnyc.com/">Bird & Branch</a></td><td>~5 mins walk</td><td><a href="https://www.google.com/maps/dir/414+W+46th+St,+New+York,+NY/Bird+%26+Branch,+NYC/">Map</a></td></tr>
-    <tr><td>11:15 AM</td><td>60 mins</td><td>Visit Empire State Building / Top of the Rock</td><td>Attraction</td><td><a href="https://www.esbnyc.com/">Empire State</a> / <a href="https://www.topoftherocknyc.com/">Top of the Rock</a></td><td>~15 mins from cafe</td><td><a href="https://www.google.com/maps/dir/Bird+%26+Branch,+NYC/Empire+State+Building,+NYC/">Map</a></td></tr>
-    <tr><td>12:15 PM</td><td>30 mins</td><td>Coffee break at Culture Espresso</td><td>Meal</td><td><a href="https://www.cultureespresso.com/">Culture Espresso</a></td><td>~5 mins walk</td><td><a href="https://www.google.com/maps/dir/Empire+State+Building,+NYC/Culture+Espresso,+NYC/">Map</a></td></tr>
-    <tr><td>12:45 PM</td><td>30 mins</td><td>Bryant Park walk & New York Public Library photos</td><td>Park</td><td><a href="https://bryantpark.org/">Bryant Park</a></td><td>~5 mins walk</td><td><a href="https://www.google.com/maps/dir/Culture+Espresso,+NYC/Bryant+Park,+NYC/">Map</a></td></tr>
-    <tr><td>1:15 PM</td><td>60 mins</td><td>Lunch at Kailash Parbat (North Indian Chaat & Street Food)</td><td>Meal</td><td><a href="https://www.kailashparbatny.com/">Kailash Parbat</a></td><td>~10–15 mins</td><td><a href="https://www.google.com/maps/dir/Bryant+Park,+NYC/Kailash+Parbat,+NYC/">Map</a></td></tr>
-    <tr><td>2:45 PM</td><td>60 mins</td><td>Central Park (Loeb Boathouse, Bethesda Terrace)</td><td>Park</td><td><a href="https://www.centralparknyc.org/">Central Park</a></td><td>~20 mins</td><td><a href="https://www.google.com/maps/dir/Kailash+Parbat,+NYC/Loeb+Boathouse,+Central+Park,+NYC/">Map</a></td></tr>
-    <tr><td>4:45 PM</td><td>75 mins</td><td>The MET Museum</td><td>Cultural</td><td><a href="https://www.metmuseum.org/">The MET</a></td><td>~15 mins walk or 10 mins bus</td><td><a href="https://www.google.com/maps/dir/Loeb+Boathouse,+NYC/The+Metropolitan+Museum+of+Art/">Map</a></td></tr>
-    <tr><td>6:30 PM</td><td>45 mins</td><td>Sunset at Brooklyn Bridge Park</td><td>Park</td><td><a href="https://www.brooklynbridgepark.org/">Brooklyn Bridge Park</a></td><td>~40–45 mins</td><td><a href="https://www.google.com/maps/dir/The+Metropolitan+Museum+of+Art/Brooklyn+Bridge+Park/">Map</a></td></tr>
-    <tr><td>7:30 PM</td><td>60 mins</td><td>Dinner at Jajaja Plantas Mexicana (Vegan Mexican)</td><td>Meal</td><td><a href="https://www.jajajamexicana.com/">Jajaja NYC</a></td><td>~10 mins</td><td><a href="https://www.google.com/maps/dir/Brooklyn+Bridge+Park/Jajaja+Plantas+Mexicana,+NYC/">Map</a></td></tr>
-  </tbody>
-</table>
+  <details>
+    <summary><strong>Day 2 – April 18: Midtown NYC Highlights</strong></summary>
+    <table>
+      <thead>
+        <tr>
+          <th>Time</th><th>Duration</th><th>Activity</th><th>Type</th><th>Reference / Link</th><th>Travel Time</th><th>Map</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>10:30 AM</td><td>30 mins</td><td>Coffee break at Bird & Branch (near hotel)</td><td>Meal</td><td><a href="https://www.birdandbranchnyc.com/">Bird & Branch</a></td><td>~5 mins walk</td><td><a href="https://www.google.com/maps/dir/414+W+46th+St,+New+York,+NY/Bird+%26+Branch,+NYC/">Map</a></td></tr>
+        <tr><td>11:15 AM</td><td>60 mins</td><td>Visit Empire State Building / Top of the Rock</td><td>Attraction</td><td><a href="https://www.esbnyc.com/">Empire State</a> / <a href="https://www.topoftherocknyc.com/">Top of the Rock</a></td><td>~15 mins from cafe</td><td><a href="https://www.google.com/maps/dir/Bird+%26+Branch,+NYC/Empire+State+Building,+NYC/">Map</a></td></tr>
+        <tr><td>12:15 PM</td><td>30 mins</td><td>Coffee break at Culture Espresso</td><td>Meal</td><td><a href="https://www.cultureespresso.com/">Culture Espresso</a></td><td>~5 mins walk</td><td><a href="https://www.google.com/maps/dir/Empire+State+Building,+NYC/Culture+Espresso,+NYC/">Map</a></td></tr>
+        <tr><td>12:45 PM</td><td>30 mins</td><td>Bryant Park walk & New York Public Library photos</td><td>Park</td><td><a href="https://bryantpark.org/">Bryant Park</a></td><td>~5 mins walk</td><td><a href="https://www.google.com/maps/dir/Culture+Espresso,+NYC/Bryant+Park,+NYC/">Map</a></td></tr>
+        <tr><td>1:15 PM</td><td>60 mins</td><td>Lunch at Kailash Parbat (North Indian Chaat & Street Food)</td><td>Meal</td><td><a href="https://www.kailashparbatny.com/">Kailash Parbat</a></td><td>~10–15 mins</td><td><a href="https://www.google.com/maps/dir/Bryant+Park,+NYC/Kailash+Parbat,+NYC/">Map</a></td></tr>
+        <tr><td>2:45 PM</td><td>60 mins</td><td>Central Park (Loeb Boathouse, Bethesda Terrace)</td><td>Park</td><td><a href="https://www.centralparknyc.org/">Central Park</a></td><td>~20 mins</td><td><a href="https://www.google.com/maps/dir/Kailash+Parbat,+NYC/Loeb+Boathouse,+Central+Park,+NYC/">Map</a></td></tr>
+        <tr><td>4:45 PM</td><td>75 mins</td><td>The MET Museum</td><td>Cultural</td><td><a href="https://www.metmuseum.org/">The MET</a></td><td>~15 mins walk or 10 mins bus</td><td><a href="https://www.google.com/maps/dir/Loeb+Boathouse,+NYC/The+Metropolitan+Museum+of+Art/">Map</a></td></tr>
+        <tr><td>6:30 PM</td><td>45 mins</td><td>Sunset at Brooklyn Bridge Park</td><td>Park</td><td><a href="https://www.brooklynbridgepark.org/">Brooklyn Bridge Park</a></td><td>~40–45 mins</td><td><a href="https://www.google.com/maps/dir/The+Metropolitan+Museum+of+Art/Brooklyn+Bridge+Park/">Map</a></td></tr>
+        <tr><td>7:30 PM</td><td>60 mins</td><td>Dinner at Jajaja Plantas Mexicana (Vegan Mexican)</td><td>Meal</td><td><a href="https://www.jajajamexicana.com/">Jajaja NYC</a></td><td>~10 mins</td><td><a href="https://www.google.com/maps/dir/Brooklyn+Bridge+Park/Jajaja+Plantas+Mexicana,+NYC/">Map</a></td></tr>
+      </tbody>
+    </table>
+  </details>
 
-<h3>Day 3 – April 19: Downtown Manhattan & Liberty Tour</h3>
-<table>
-  <thead>
-    <tr>
-      <th>Time</th><th>Duration</th><th>Activity</th><th>Type</th><th>Reference / Link</th><th>Travel Time</th><th>Map</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>8:00 AM</td><td>60 mins</td><td>Visit Target – Herald Square</td><td>Shopping</td><td><a href="https://www.target.com/sl/manhattan-herald-square/3277">Target</a></td><td>~20 mins</td><td><a href="https://www.google.com/maps/dir/414+W+46th+St,+New+York,+NY+10036/112+W+34th+St,+New+York,+NY+10001">Map</a></td></tr>
-    <tr><td>9:15 AM</td><td>60 mins</td><td>Visit Trader Joe's – Upper West Side</td><td>Shopping</td><td><a href="https://locations.traderjoes.com/ny/new-york/545/">Trader Joe's</a></td><td>~15 mins</td><td><a href="https://www.google.com/maps/dir/112+W+34th+St,+New+York,+NY+10001/670+Columbus+Ave,+New+York,+NY+10025">Map</a></td></tr>
-    <tr><td>11:00 AM</td><td>60 mins</td><td>Ferry to Statue of Liberty & Ellis Island</td><td>Transport</td><td><a href="https://www.statuecruises.com/">Statue Cruises</a></td><td>~25 mins from Trader Joe’s</td><td><a href="https://www.google.com/maps/dir/670+Columbus+Ave,+New+York,+NY+10025/Battery+Park,+NYC/">Map</a></td></tr>
-    <tr><td>12:15 PM</td><td>30 mins</td><td>Stroll through Battery Park Gardens</td><td>Park</td><td><a href="https://www.nycgovparks.org/parks/battery-park">Battery Park Info</a></td><td>~2 mins walk</td><td><a href="https://www.google.com/maps/dir/Battery+Park,+NYC/Battery+Park+Gardens/">Map</a></td></tr>
-    <tr><td>12:45 PM</td><td>60 mins</td><td>Lunch at Nish Nush (Middle Eastern Vegetarian)</td><td>Meal</td><td><a href="https://www.nishnushnyc.com/">Nish Nush</a></td><td>~10 mins walk</td><td><a href="https://www.google.com/maps/dir/Battery+Park,+NYC/Nish+Nush,+NYC/">Map</a></td></tr>
-    <tr><td>2:15 PM</td><td>60 mins</td><td>9/11 Memorial & Museum</td><td>Cultural</td><td><a href="https://www.911memorial.org/">9/11 Museum</a></td><td>~5–10 mins</td><td><a href="https://www.google.com/maps/dir/Nish+Nush,+NYC/9%2F11+Memorial+Museum/">Map</a></td></tr>
-    <tr><td>3:45 PM</td><td>45 mins</td><td>Wall Street & Oculus</td><td>Attraction</td><td><a href="https://www.westfield.com/westfieldworldtradecenter">The Oculus</a></td><td>~5 mins walk</td><td><a href="https://www.google.com/maps/dir/9%2F11+Memorial+Museum/Oculus,+NYC/">Map</a></td></tr>
-    <tr><td>5:30 PM</td><td>60 mins</td><td>Little Italy & Chinatown</td><td>Neighborhood</td><td><a href="https://littleitalynyc.com/">Little Italy</a> / <a href="https://www.explorechinatown.com/">Chinatown</a></td><td>~15–20 mins</td><td><a href="https://www.google.com/maps/dir/Oculus,+NYC/Little+Italy,+NYC/">Map</a></td></tr>
-    <tr><td>7:30 PM</td><td>60 mins</td><td>Dinner at Vatan (Vegetarian Indian Thali)</td><td>Meal</td><td><a href="https://www.vatanny.com/">Vatan NYC</a></td><td>~30 mins</td><td><a href="https://www.google.com/maps/dir/Little+Italy,+NYC/Vatan,+NYC/">Map</a></td></tr>
-    <tr><td>9:30 PM</td><td>90 mins</td><td>Optional Broadway Show or Rooftop Bar</td><td>Event</td><td><a href="https://www.todaytix.com/">TodayTix</a></td><td>~10–15 mins</td><td><a href="https://www.google.com/maps/dir/Vatan,+NYC/Times+Square,+NYC/">Map</a></td></tr>
-  </tbody>
-</table>
+  <details>
+    <summary><strong>Day 3 – April 19: Downtown Manhattan & Liberty Tour</strong></summary>
+    <table>
+      <thead>
+        <tr>
+          <th>Time</th><th>Duration</th><th>Activity</th><th>Type</th><th>Reference / Link</th><th>Travel Time</th><th>Map</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>8:00 AM</td><td>60 mins</td><td>Visit Target – Herald Square</td><td>Shopping</td><td><a href="https://www.target.com/sl/manhattan-herald-square/3277">Target</a></td><td>~20 mins</td><td><a href="https://www.google.com/maps/dir/414+W+46th+St,+New+York,+NY+10036/112+W+34th+St,+New+York,+NY+10001">Map</a></td></tr>
+        <tr><td>9:15 AM</td><td>60 mins</td><td>Visit Trader Joe's – Upper West Side</td><td>Shopping</td><td><a href="https://locations.traderjoes.com/ny/new-york/545/">Trader Joe's</a></td><td>~15 mins</td><td><a href="https://www.google.com/maps/dir/112+W+34th+St,+New+York,+NY+10001/670+Columbus+Ave,+New+York,+NY+10025">Map</a></td></tr>
+        <tr><td>11:00 AM</td><td>60 mins</td><td>Ferry to Statue of Liberty & Ellis Island</td><td>Transport</td><td><a href="https://www.statuecruises.com/">Statue Cruises</a></td><td>~25 mins from Trader Joe’s</td><td><a href="https://www.google.com/maps/dir/670+Columbus+Ave,+New+York,+NY+10025/Battery+Park,+NYC/">Map</a></td></tr>
+        <tr><td>12:15 PM</td><td>30 mins</td><td>Stroll through Battery Park Gardens</td><td>Park</td><td><a href="https://www.nycgovparks.org/parks/battery-park">Battery Park Info</a></td><td>~2 mins walk</td><td><a href="https://www.google.com/maps/dir/Battery+Park,+NYC/Battery+Park+Gardens/">Map</a></td></tr>
+        <tr><td>12:45 PM</td><td>60 mins</td><td>Lunch at Nish Nush (Middle Eastern Vegetarian)</td><td>Meal</td><td><a href="https://www.nishnushnyc.com/">Nish Nush</a></td><td>~10 mins walk</td><td><a href="https://www.google.com/maps/dir/Battery+Park,+NYC/Nish+Nush,+NYC/">Map</a></td></tr>
+        <tr><td>2:15 PM</td><td>60 mins</td><td>9/11 Memorial & Museum</td><td>Cultural</td><td><a href="https://www.911memorial.org/">9/11 Museum</a></td><td>~5–10 mins</td><td><a href="https://www.google.com/maps/dir/Nish+Nush,+NYC/9%2F11+Memorial+Museum/">Map</a></td></tr>
+        <tr><td>3:45 PM</td><td>45 mins</td><td>Wall Street & Oculus</td><td>Attraction</td><td><a href="https://www.westfield.com/westfieldworldtradecenter">The Oculus</a></td><td>~5 mins walk</td><td><a href="https://www.google.com/maps/dir/9%2F11+Memorial+Museum/Oculus,+NYC/">Map</a></td></tr>
+        <tr><td>5:30 PM</td><td>60 mins</td><td>Little Italy & Chinatown</td><td>Neighborhood</td><td><a href="https://littleitalynyc.com/">Little Italy</a> / <a href="https://www.explorechinatown.com/">Chinatown</a></td><td>~15–20 mins</td><td><a href="https://www.google.com/maps/dir/Oculus,+NYC/Little+Italy,+NYC/">Map</a></td></tr>
+        <tr><td>7:30 PM</td><td>60 mins</td><td>Dinner at Vatan (Vegetarian Indian Thali)</td><td>Meal</td><td><a href="https://www.vatanny.com/">Vatan NYC</a></td><td>~30 mins</td><td><a href="https://www.google.com/maps/dir/Little+Italy,+NYC/Vatan,+NYC/">Map</a></td></tr>
+        <tr><td>9:30 PM</td><td>90 mins</td><td>Optional Broadway Show or Rooftop Bar</td><td>Event</td><td><a href="https://www.todaytix.com/">TodayTix</a></td><td>~10–15 mins</td><td><a href="https://www.google.com/maps/dir/Vatan,+NYC/Times+Square,+NYC/">Map</a></td></tr>
+      </tbody>
+    </table>
+  </details>
 
-<h3>Day 4 – April 20: Day Trip to Princeton</h3>
-<table>
-  <thead>
-    <tr>
-      <th>Time</th><th>Duration</th><th>Activity</th><th>Type</th><th>Reference / Link</th><th>Travel Time</th><th>Map</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>10:15 AM</td><td>30 mins</td><td>Coffee break at Culture Espresso (near Bryant Park)</td><td>Meal</td><td><a href="https://www.cultureespresso.com/">Culture Espresso</a></td><td>~5 mins walk</td><td><a href="https://www.google.com/maps/dir/414+W+46th+St,+New+York,+NY/Culture+Espresso,+NYC/">Map</a></td></tr>
-    <tr><td>10:45 AM</td><td>90 mins</td><td>Shopping at Bryant Park & nearby 5th Ave stores</td><td>Shopping</td><td><a href="https://bryantpark.org/">Bryant Park</a></td><td>~2 mins walk</td><td><a href="https://www.google.com/maps/dir/Culture+Espresso,+NYC/Bryant+Park,+NYC/">Map</a></td></tr>
-    <tr><td>12:30 PM</td><td>90 mins</td><td>NJ Transit to Princeton from Penn Station</td><td>Transport</td><td><a href="https://www.njtransit.com/">NJ Transit</a></td><td>~1.5 hrs</td><td><a href="https://www.google.com/maps/dir/Bryant+Park,+NYC/Penn+Station,+NYC/">Map</a></td></tr>
-    <tr><td>2:15 PM</td><td>60 mins</td><td>Explore Princeton University Campus</td><td>Attraction</td><td><a href="https://www.princeton.edu/visit">Princeton Visitor Info</a></td><td>~10 mins walk</td><td><a href="https://www.google.com/maps/dir/Princeton+Station/Princeton+University/">Map</a></td></tr>
-    <tr><td>3:30 PM</td><td>60 mins</td><td>Lunch at Jammin’ Crepes (Fresh Local Crepes)</td><td>Meal</td><td><a href="https://www.jammincrepes.com/">Jammin' Crepes</a></td><td>~5 mins walk</td><td><a href="https://www.google.com/maps/dir/Princeton+University/Jammin'+Crepes/">Map</a></td></tr>
-    <tr><td>5:00 PM</td><td>60 mins</td><td>Delaware & Raritan Canal State Park</td><td>Park</td><td><a href="https://www.state.nj.us/dep/parksandforests/parks/delaware.html">State Park Info</a></td><td>~10 mins walk</td><td><a href="https://www.google.com/maps/dir/Jammin'+Crepes/Delaware+%26+Raritan+Canal+State+Park/">Map</a></td></tr>
-    <tr><td>7:30 PM</td><td>90 mins</td><td>NJ Transit back to NYC</td><td>Transport</td><td><a href="https://www.njtransit.com/">NJ Transit</a></td><td>~1.5 hrs</td><td><a href="https://www.google.com/maps/dir/Delaware+%26+Raritan+Canal+State+Park/Princeton+Station/">Map</a></td></tr>
-    <tr><td>9:00 PM</td><td>60 mins</td><td>Dinner at Honest Edison (Indian Street Food) or Rajbhog Sweets (Indian Sweets & Snacks)</td><td>Meal</td><td><a href="https://www.honestrestaurantusa.com/">Honest Edison</a> / <a href="https://www.rajbhog.com/">Rajbhog JC</a></td><td>~30–45 mins detour</td><td><a href="https://www.google.com/maps/dir/Penn+Station+NYC/Rajbhog+Sweets,+Jersey+City/">Map</a></td></tr>
-  </tbody>
-</table>
+  <details>
+    <summary><strong>Day 4 – April 20: Day Trip to Princeton</strong></summary>
+    <table>
+      <thead>
+        <tr>
+          <th>Time</th><th>Duration</th><th>Activity</th><th>Type</th><th>Reference / Link</th><th>Travel Time</th><th>Map</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>10:15 AM</td><td>30 mins</td><td>Coffee break at Culture Espresso (near Bryant Park)</td><td>Meal</td><td><a href="https://www.cultureespresso.com/">Culture Espresso</a></td><td>~5 mins walk</td><td><a href="https://www.google.com/maps/dir/414+W+46th+St,+New+York,+NY/Culture+Espresso,+NYC/">Map</a></td></tr>
+        <tr><td>10:45 AM</td><td>90 mins</td><td>Shopping at Bryant Park & nearby 5th Ave stores</td><td>Shopping</td><td><a href="https://bryantpark.org/">Bryant Park</a></td><td>~2 mins walk</td><td><a href="https://www.google.com/maps/dir/Culture+Espresso,+NYC/Bryant+Park,+NYC/">Map</a></td></tr>
+        <tr><td>12:30 PM</td><td>90 mins</td><td>NJ Transit to Princeton from Penn Station</td><td>Transport</td><td><a href="https://www.njtransit.com/">NJ Transit</a></td><td>~1.5 hrs</td><td><a href="https://www.google.com/maps/dir/Bryant+Park,+NYC/Penn+Station,+NYC/">Map</a></td></tr>
+        <tr><td>2:15 PM</td><td>60 mins</td><td>Explore Princeton University Campus</td><td>Attraction</td><td><a href="https://www.princeton.edu/visit">Princeton Visitor Info</a></td><td>~10 mins walk</td><td><a href="https://www.google.com/maps/dir/Princeton+Station/Princeton+University/">Map</a></td></tr>
+        <tr><td>3:30 PM</td><td>60 mins</td><td>Lunch at Jammin’ Crepes (Fresh Local Crepes)</td><td>Meal</td><td><a href="https://www.jammincrepes.com/">Jammin' Crepes</a></td><td>~5 mins walk</td><td><a href="https://www.google.com/maps/dir/Princeton+University/Jammin'+Crepes/">Map</a></td></tr>
+        <tr><td>5:00 PM</td><td>60 mins</td><td>Delaware & Raritan Canal State Park</td><td>Park</td><td><a href="https://www.state.nj.us/dep/parksandforests/parks/delaware.html">State Park Info</a></td><td>~10 mins walk</td><td><a href="https://www.google.com/maps/dir/Jammin'+Crepes/Delaware+%26+Raritan+Canal+State+Park/">Map</a></td></tr>
+        <tr><td>7:30 PM</td><td>90 mins</td><td>NJ Transit back to NYC</td><td>Transport</td><td><a href="https://www.njtransit.com/">NJ Transit</a></td><td>~1.5 hrs</td><td><a href="https://www.google.com/maps/dir/Delaware+%26+Raritan+Canal+State+Park/Princeton+Station/">Map</a></td></tr>
+        <tr><td>9:00 PM</td><td>60 mins</td><td>Dinner at Honest Edison (Indian Street Food) or Rajbhog Sweets (Indian Sweets & Snacks)</td><td>Meal</td><td><a href="https://www.honestrestaurantusa.com/">Honest Edison</a> / <a href="https://www.rajbhog.com/">Rajbhog JC</a></td><td>~30–45 mins detour</td><td><a href="https://www.google.com/maps/dir/Penn+Station+NYC/Rajbhog+Sweets,+Jersey+City/">Map</a></td></tr>
+      </tbody>
+    </table>
+  </details>
 
-<h3>Day 5 – April 21: Checkout & Departure</h3>
-<table>
-  <thead>
-    <tr>
-      <th>Time</th><th>Duration</th><th>Activity</th><th>Type</th><th>Reference / Link</th><th>Travel Time</th><th>Map</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>11:00 AM</td><td>30 mins</td><td>Coffee break at Culture Espresso (midtown area)</td><td>Meal</td><td><a href="https://www.cultureespresso.com/">Culture Espresso</a></td><td>~10 mins walk</td><td><a href="https://www.google.com/maps/dir/414+W+46th+St,+New+York,+NY/Culture+Espresso,+NYC/">Map</a></td></tr>
-    <tr><td>12:00 PM</td><td>60 mins</td><td>Early Lunch at Saravanaa Bhavan (South Indian Vegetarian) or Spice Symphony (Indian-Chinese Fusion)</td><td>Meal</td><td><a href="https://saravanaabhavan.us/">Saravanaa Bhavan</a> / <a href="https://www.spicesymphony.com/">Spice Symphony</a></td><td>~15–20 mins</td><td><a href="https://www.google.com/maps/dir/Culture+Espresso,+NYC/Saravanaa+Bhavan,+NYC/">Map</a></td></tr>
-    <tr><td>1:00 PM</td><td>75 mins</td><td>Depart for Newark Airport</td><td>Transport</td><td><a href="https://www.newarkairport.com/">EWR Directions</a></td><td>~1 hr via express bus</td><td><a href="https://www.google.com/maps/dir/Saravanaa+Bhavan,+NYC/Newark+Liberty+International+Airport/">Map</a></td></tr>
-    <tr><td>4:15 PM</td><td>—</td><td>Flight to Toronto</td><td>Transport</td><td>—</td><td>Arrive at airport by ~2:15 PM</td><td>—</td></tr>
-  </tbody>
-</table>
+  <details>
+    <summary><strong>Day 5 – April 21: Checkout & Departure</strong></summary>
+    <table>
+      <thead>
+        <tr>
+          <th>Time</th><th>Duration</th><th>Activity</th><th>Type</th><th>Reference / Link</th><th>Travel Time</th><th>Map</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>11:00 AM</td><td>30 mins</td><td>Coffee break at Culture Espresso (midtown area)</td><td>Meal</td><td><a href="https://www.cultureespresso.com/">Culture Espresso</a></td><td>~10 mins walk</td><td><a href="https://www.google.com/maps/dir/414+W+46th+St,+New+York,+NY/Culture+Espresso,+NYC/">Map</a></td></tr>
+        <tr><td>12:00 PM</td><td>60 mins</td><td>Early Lunch at Saravanaa Bhavan (South Indian Vegetarian) or Spice Symphony (Indian-Chinese Fusion)</td><td>Meal</td><td><a href="https://saravanaabhavan.us/">Saravanaa Bhavan</a> / <a href="https://www.spicesymphony.com/">Spice Symphony</a></td><td>~15–20 mins</td><td><a href="https://www.google.com/maps/dir/Culture+Espresso,+NYC/Saravanaa+Bhavan,+NYC/">Map</a></td></tr>
+        <tr><td>1:00 PM</td><td>75 mins</td><td>Depart for Newark Airport</td><td>Transport</td><td><a href="https://www.newarkairport.com/">EWR Directions</a></td><td>~1 hr via express bus</td><td><a href="https://www.google.com/maps/dir/Saravanaa+Bhavan,+NYC/Newark+Liberty+International+Airport/">Map</a></td></tr>
+        <tr><td>4:15 PM</td><td>—</td><td>Flight to Toronto</td><td>Transport</td><td>—</td><td>Arrive at airport by ~2:15 PM</td><td>—</td></tr>
+      </tbody>
+    </table>
+  </details>
 </div>
 <div id="summary" class="tab-content">
-<!-- Summary content will go here -->
 <h2>Summary of Activities by Type</h2>
 
-<h3>Meal</h3>
-<table>
-  <thead>
-    <tr><th>Day</th><th>Time</th><th>Activity</th><th>Reference / Link</th><th>Google Maps Direction</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>1</td><td>9:00 PM</td><td>Dinner at Saravanaa Bhavan or Ananda Bhavan</td><td><a href="https://saravanaabhavan.us/">Saravanaa</a> / <a href="https://www.yelp.com/biz/ananda-bhavan-jersey-city">Ananda</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Saravanaa+Bhavan+NYC">Map</a></td></tr>
-    <tr><td>2</td><td>10:30 AM</td><td>Coffee at Bird & Branch</td><td><a href="https://www.birdandbranchnyc.com/">Bird & Branch</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Bird+%26+Branch+NYC">Map</a></td></tr>
-    <tr><td>2</td><td>12:15 PM</td><td>Coffee at Culture Espresso</td><td><a href="https://www.cultureespresso.com/">Culture Espresso</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Culture+Espresso+NYC">Map</a></td></tr>
-    <tr><td>2</td><td>1:15 PM</td><td>Lunch at Kailash Parbat</td><td><a href="https://www.kailashparbatny.com/">Kailash Parbat</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Kailash+Parbat+NYC">Map</a></td></tr>
-    <tr><td>2</td><td>7:30 PM</td><td>Dinner at Jajaja Plantas Mexicana</td><td><a href="https://www.jajajamexicana.com/">Jajaja</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Jajaja+Plantas+Mexicana+NYC">Map</a></td></tr>
-    <tr><td>3</td><td>12:45 PM</td><td>Lunch at Nish Nush</td><td><a href="https://www.nishnushnyc.com/">Nish Nush</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Nish+Nush+NYC">Map</a></td></tr>
-    <tr><td>3</td><td>7:30 PM</td><td>Dinner at Vatan NYC</td><td><a href="https://www.vatanny.com/">Vatan NYC</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Vatan+NYC">Map</a></td></tr>
-    <tr><td>4</td><td>10:15 AM</td><td>Coffee at Culture Espresso</td><td><a href="https://www.cultureespresso.com/">Culture Espresso</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Culture+Espresso+NYC">Map</a></td></tr>
-    <tr><td>4</td><td>3:30 PM</td><td>Lunch at Jammin' Crepes</td><td><a href="https://www.jammincrepes.com/">Jammin' Crepes</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Jammin+Crepes+Princeton">Map</a></td></tr>
-    <tr><td>4</td><td>9:00 PM</td><td>Dinner at Honest Edison or Rajbhog JC</td><td><a href="https://www.honestrestaurantusa.com/">Honest</a> / <a href="https://www.rajbhog.com/">Rajbhog</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Rajbhog+Sweets+Jersey+City">Map</a></td></tr>
-    <tr><td>5</td><td>11:00 AM</td><td>Coffee at Culture Espresso</td><td><a href="https://www.cultureespresso.com/">Culture Espresso</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Culture+Espresso+NYC">Map</a></td></tr>
-    <tr><td>5</td><td>12:00 PM</td><td>Lunch at Saravanaa Bhavan or Spice Symphony</td><td><a href="https://saravanaabhavan.us/">Saravanaa</a> / <a href="https://www.spicesymphony.com/">Spice Symphony</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Saravanaa+Bhavan+NYC">Map</a></td></tr>
-  </tbody>
-</table>
+<details>
+  <summary><strong>Meal</strong></summary>
+  <table>
+    <thead>
+      <tr><th>Day</th><th>Time</th><th>Activity</th><th>Reference / Link</th><th>Google Maps Direction</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>9:00 PM</td><td>Dinner at Saravanaa Bhavan or Ananda Bhavan</td><td><a href="https://saravanaabhavan.us/">Saravanaa</a> / <a href="https://www.yelp.com/biz/ananda-bhavan-jersey-city">Ananda</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Saravanaa+Bhavan+NYC">Map</a></td></tr>
+      <tr><td>2</td><td>10:30 AM</td><td>Coffee at Bird & Branch</td><td><a href="https://www.birdandbranchnyc.com/">Bird & Branch</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Bird+%26+Branch+NYC">Map</a></td></tr>
+      <tr><td>2</td><td>12:15 PM</td><td>Coffee at Culture Espresso</td><td><a href="https://www.cultureespresso.com/">Culture Espresso</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Culture+Espresso+NYC">Map</a></td></tr>
+      <tr><td>2</td><td>1:15 PM</td><td>Lunch at Kailash Parbat</td><td><a href="https://www.kailashparbatny.com/">Kailash Parbat</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Kailash+Parbat+NYC">Map</a></td></tr>
+      <tr><td>2</td><td>7:30 PM</td><td>Dinner at Jajaja Plantas Mexicana</td><td><a href="https://www.jajajamexicana.com/">Jajaja</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Jajaja+Plantas+Mexicana+NYC">Map</a></td></tr>
+      <tr><td>3</td><td>12:45 PM</td><td>Lunch at Nish Nush</td><td><a href="https://www.nishnushnyc.com/">Nish Nush</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Nish+Nush+NYC">Map</a></td></tr>
+      <tr><td>3</td><td>7:30 PM</td><td>Dinner at Vatan NYC</td><td><a href="https://www.vatanny.com/">Vatan NYC</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Vatan+NYC">Map</a></td></tr>
+      <tr><td>4</td><td>10:15 AM</td><td>Coffee at Culture Espresso</td><td><a href="https://www.cultureespresso.com/">Culture Espresso</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Culture+Espresso+NYC">Map</a></td></tr>
+      <tr><td>4</td><td>3:30 PM</td><td>Lunch at Jammin' Crepes</td><td><a href="https://www.jammincrepes.com/">Jammin' Crepes</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Jammin+Crepes+Princeton">Map</a></td></tr>
+      <tr><td>4</td><td>9:00 PM</td><td>Dinner at Honest Edison or Rajbhog JC</td><td><a href="https://www.honestrestaurantusa.com/">Honest</a> / <a href="https://www.rajbhog.com/">Rajbhog</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Rajbhog+Sweets+Jersey+City">Map</a></td></tr>
+      <tr><td>5</td><td>11:00 AM</td><td>Coffee at Culture Espresso</td><td><a href="https://www.cultureespresso.com/">Culture Espresso</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Culture+Espresso+NYC">Map</a></td></tr>
+      <tr><td>5</td><td>12:00 PM</td><td>Lunch at Saravanaa Bhavan or Spice Symphony</td><td><a href="https://saravanaabhavan.us/">Saravanaa</a> / <a href="https://www.spicesymphony.com/">Spice Symphony</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Saravanaa+Bhavan+NYC">Map</a></td></tr>
+    </tbody>
+  </table>
+</details>
 
-<h3>Transport</h3>
-<table>
-  <thead>
-    <tr><th>Day</th><th>Time</th><th>Activity</th><th>Reference / Link</th><th>Google Maps Direction</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>1</td><td>6:05 PM</td><td>Land at Newark Airport</td><td><a href="https://www.newarkairport.com/">Newark Airport</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Newark+Airport">Map</a></td></tr>
-    <tr><td>1</td><td>7:00 PM</td><td>Board Newark Airport Express Bus</td><td><a href="https://www.newarkairportexpress.com/">Express Bus</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Port+Authority+Bus+Terminal,+NYC">Map</a></td></tr>
-    <tr><td>1</td><td>8:00 PM</td><td>Walk to hotel</td><td><a href="https://www.google.com/maps/dir/?api=1&destination=414+W+46th+St,+New+York,+NY+10036">Hotel</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=414+W+46th+St,+New+York,+NY+10036">Map</a></td></tr>
-    <tr><td>4</td><td>12:30 PM</td><td>NJ Transit to Princeton</td><td><a href="https://www.njtransit.com/">NJ Transit</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Princeton+Station">Map</a></td></tr>
-    <tr><td>4</td><td>7:30 PM</td><td>Return to NYC via NJ Transit</td><td><a href="https://www.njtransit.com/">NJ Transit</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Penn+Station,+NYC">Map</a></td></tr>
-    <tr><td>5</td><td>1:00 PM</td><td>Depart for Newark Airport</td><td><a href="https://www.newarkairport.com/">Newark Airport</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Newark+Airport">Map</a></td></tr>
-    <tr><td>5</td><td>4:15 PM</td><td>Flight to Toronto</td><td>—</td><td>—</td></tr>
-  </tbody>
-</table>
+<details>
+  <summary><strong>Transport</strong></summary>
+  <table>
+    <thead>
+      <tr><th>Day</th><th>Time</th><th>Activity</th><th>Reference / Link</th><th>Google Maps Direction</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>6:05 PM</td><td>Land at Newark Airport</td><td><a href="https://www.newarkairport.com/">Newark Airport</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Newark+Airport">Map</a></td></tr>
+      <tr><td>1</td><td>7:00 PM</td><td>Board Newark Airport Express Bus</td><td><a href="https://www.newarkairportexpress.com/">Express Bus</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Port+Authority+Bus+Terminal,+NYC">Map</a></td></tr>
+      <tr><td>1</td><td>8:00 PM</td><td>Walk to hotel</td><td><a href="https://www.google.com/maps/dir/?api=1&destination=414+W+46th+St,+New+York,+NY+10036">Hotel</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=414+W+46th+St,+New+York,+NY+10036">Map</a></td></tr>
+      <tr><td>4</td><td>12:30 PM</td><td>NJ Transit to Princeton</td><td><a href="https://www.njtransit.com/">NJ Transit</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Princeton+Station">Map</a></td></tr>
+      <tr><td>4</td><td>7:30 PM</td><td>Return to NYC via NJ Transit</td><td><a href="https://www.njtransit.com/">NJ Transit</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Penn+Station,+NYC">Map</a></td></tr>
+      <tr><td>5</td><td>1:00 PM</td><td>Depart for Newark Airport</td><td><a href="https://www.newarkairport.com/">Newark Airport</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Newark+Airport">Map</a></td></tr>
+      <tr><td>5</td><td>4:15 PM</td><td>Flight to Toronto</td><td>—</td><td>—</td></tr>
+    </tbody>
+  </table>
+</details>
 
-<h3>Attraction</h3>
-<table>
-  <thead>
-    <tr><th>Day</th><th>Time</th><th>Activity</th><th>Reference / Link</th><th>Google Maps Direction</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>2</td><td>11:15 AM</td><td>Empire State Building or Top of the Rock</td><td><a href="https://www.esbnyc.com/">Empire State</a> / <a href="https://www.topoftherocknyc.com/">Top of the Rock</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Empire+State+Building+NYC">Map</a></td></tr>
-    <tr><td>3</td><td>3:45 PM</td><td>Wall Street & Oculus</td><td><a href="https://www.westfield.com/westfieldworldtradecenter">The Oculus</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Oculus+NYC">Map</a></td></tr>
-  </tbody>
-</table>
+<details>
+  <summary><strong>Attraction</strong></summary>
+  <table>
+    <thead>
+      <tr><th>Day</th><th>Time</th><th>Activity</th><th>Reference / Link</th><th>Google Maps Direction</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>2</td><td>11:15 AM</td><td>Empire State Building or Top of the Rock</td><td><a href="https://www.esbnyc.com/">Empire State</a> / <a href="https://www.topoftherocknyc.com/">Top of the Rock</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Empire+State+Building+NYC">Map</a></td></tr>
+      <tr><td>3</td><td>3:45 PM</td><td>Wall Street & Oculus</td><td><a href="https://www.westfield.com/westfieldworldtradecenter">The Oculus</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Oculus+NYC">Map</a></td></tr>
+    </tbody>
+  </table>
+</details>
 
-<h3>Park</h3>
-<table>
-  <thead>
-    <tr><th>Day</th><th>Time</th><th>Activity</th><th>Reference / Link</th><th>Google Maps Direction</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>2</td><td>12:45 PM</td><td>Bryant Park walk</td><td><a href="https://bryantpark.org/">Bryant Park</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Bryant+Park+NYC">Map</a></td></tr>
-    <tr><td>2</td><td>2:45 PM</td><td>Central Park (Loeb Boathouse, Bethesda Terrace)</td><td><a href="https://www.centralparknyc.org/">Central Park</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Central+Park+Loeb+Boathouse">Map</a></td></tr>
-    <tr><td>2</td><td>6:30 PM</td><td>Brooklyn Bridge Park</td><td><a href="https://www.brooklynbridgepark.org/">Brooklyn Bridge Park</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Brooklyn+Bridge+Park+NYC">Map</a></td></tr>
-    <tr><td>3</td><td>12:15 PM</td><td>Battery Park Gardens</td><td><a href="https://www.nycgovparks.org/parks/battery-park">Battery Park</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Battery+Park+Gardens+NYC">Map</a></td></tr>
-    <tr><td>4</td><td>5:00 PM</td><td>Delaware & Raritan Canal State Park</td><td><a href="https://www.state.nj.us/dep/parksandforests/parks/delaware.html">State Park Info</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Delaware+%26+Raritan+Canal+State+Park">Map</a></td></tr>
-  </tbody>
-</table>
+<details>
+  <summary><strong>Park</strong></summary>
+  <table>
+    <thead>
+      <tr><th>Day</th><th>Time</th><th>Activity</th><th>Reference / Link</th><th>Google Maps Direction</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>2</td><td>12:45 PM</td><td>Bryant Park walk</td><td><a href="https://bryantpark.org/">Bryant Park</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Bryant+Park+NYC">Map</a></td></tr>
+      <tr><td>2</td><td>2:45 PM</td><td>Central Park (Loeb Boathouse, Bethesda Terrace)</td><td><a href="https://www.centralparknyc.org/">Central Park</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Central+Park+Loeb+Boathouse">Map</a></td></tr>
+      <tr><td>2</td><td>6:30 PM</td><td>Brooklyn Bridge Park</td><td><a href="https://www.brooklynbridgepark.org/">Brooklyn Bridge Park</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Brooklyn+Bridge+Park+NYC">Map</a></td></tr>
+      <tr><td>3</td><td>12:15 PM</td><td>Battery Park Gardens</td><td><a href="https://www.nycgovparks.org/parks/battery-park">Battery Park</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Battery+Park+Gardens+NYC">Map</a></td></tr>
+      <tr><td>4</td><td>5:00 PM</td><td>Delaware & Raritan Canal State Park</td><td><a href="https://www.state.nj.us/dep/parksandforests/parks/delaware.html">State Park Info</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Delaware+%26+Raritan+Canal+State+Park">Map</a></td></tr>
+    </tbody>
+  </table>
+</details>
 
-<h3>Cultural</h3>
-<table>
-  <thead>
-    <tr><th>Day</th><th>Time</th><th>Activity</th><th>Reference / Link</th><th>Google Maps Direction</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>2</td><td>12:45 PM</td><td>New York Public Library</td><td><a href="https://www.nypl.org/locations/schwarzman">NYPL</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=New+York+Public+Library+NYC">Map</a></td></tr>
-    <tr><td>2</td><td>4:45 PM</td><td>The MET Museum</td><td><a href="https://www.metmuseum.org/">The MET</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Metropolitan+Museum+of+Art+NYC">Map</a></td></tr>
-    <tr><td>3</td><td>2:15 PM</td><td>9/11 Memorial & Museum</td><td><a href="https://www.911memorial.org/">9/11 Memorial</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=9/11+Memorial+Museum">Map</a></td></tr>
-    <tr><td>4</td><td>2:15 PM</td><td>Princeton University</td><td><a href="https://www.princeton.edu/visit">Princeton</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Princeton+University">Map</a></td></tr>
-  </tbody>
-</table>
+<details>
+  <summary><strong>Cultural</strong></summary>
+  <table>
+    <thead>
+      <tr><th>Day</th><th>Time</th><th>Activity</th><th>Reference / Link</th><th>Google Maps Direction</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>2</td><td>12:45 PM</td><td>New York Public Library</td><td><a href="https://www.nypl.org/locations/schwarzman">NYPL</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=New+York+Public+Library+NYC">Map</a></td></tr>
+      <tr><td>2</td><td>4:45 PM</td><td>The MET Museum</td><td><a href="https://www.metmuseum.org/">The MET</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Metropolitan+Museum+of+Art+NYC">Map</a></td></tr>
+      <tr><td>3</td><td>2:15 PM</td><td>9/11 Memorial & Museum</td><td><a href="https://www.911memorial.org/">9/11 Memorial</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=9/11+Memorial+Museum">Map</a></td></tr>
+      <tr><td>4</td><td>2:15 PM</td><td>Princeton University</td><td><a href="https://www.princeton.edu/visit">Princeton</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Princeton+University">Map</a></td></tr>
+    </tbody>
+  </table>
+</details>
 
-<h3>Shopping</h3>
-<table>
-  <thead>
-    <tr><th>Day</th><th>Time</th><th>Activity</th><th>Reference / Link</th><th>Google Maps Direction</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>3</td><td>8:00 AM</td><td>Visit Target – Herald Square</td><td><a href="https://www.target.com/sl/manhattan-herald-square/3277">Target</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Target+Herald+Square+NYC">Map</a></td></tr>
-    <tr><td>3</td><td>9:15 AM</td><td>Visit Trader Joe's – UWS</td><td><a href="https://locations.traderjoes.com/ny/new-york/545/">Trader Joe's</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Trader+Joe%27s+Upper+West+Side+NYC">Map</a></td></tr>
-    <tr><td>4</td><td>10:45 AM</td><td>Shopping at Bryant Park & 5th Ave</td><td><a href="https://bryantpark.org/">Bryant Park</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Bryant+Park+NYC">Map</a></td></tr>
-  </tbody>
-</table>
+<details>
+  <summary><strong>Shopping</strong></summary>
+  <table>
+    <thead>
+      <tr><th>Day</th><th>Time</th><th>Activity</th><th>Reference / Link</th><th>Google Maps Direction</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>3</td><td>8:00 AM</td><td>Visit Target – Herald Square</td><td><a href="https://www.target.com/sl/manhattan-herald-square/3277">Target</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Target+Herald+Square+NYC">Map</a></td></tr>
+      <tr><td>3</td><td>9:15 AM</td><td>Visit Trader Joe's – UWS</td><td><a href="https://locations.traderjoes.com/ny/new-york/545/">Trader Joe's</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Trader+Joe%27s+Upper+West+Side+NYC">Map</a></td></tr>
+      <tr><td>4</td><td>10:45 AM</td><td>Shopping at Bryant Park & 5th Ave</td><td><a href="https://bryantpark.org/">Bryant Park</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Bryant+Park+NYC">Map</a></td></tr>
+    </tbody>
+  </table>
+</details>
 
-<h3>Event</h3>
-<table>
-  <thead>
-    <tr><th>Day</th><th>Time</th><th>Activity</th><th>Reference / Link</th><th>Google Maps Direction</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>3</td><td>9:30 PM</td><td>Broadway Show or Rooftop Bar</td><td><a href="https://www.todaytix.com/">TodayTix</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Times+Square+NYC">Map</a></td></tr>
-  </tbody>
-</table>
+<details>
+  <summary><strong>Event</strong></summary>
+  <table>
+    <thead>
+      <tr><th>Day</th><th>Time</th><th>Activity</th><th>Reference / Link</th><th>Google Maps Direction</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>3</td><td>9:30 PM</td><td>Broadway Show or Rooftop Bar</td><td><a href="https://www.todaytix.com/">TodayTix</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Times+Square+NYC">Map</a></td></tr>
+    </tbody>
+  </table>
+</details>
 
-<h3>Neighborhood</h3>
-<table>
-  <thead>
-    <tr><th>Day</th><th>Time</th><th>Activity</th><th>Reference / Link</th><th>Google Maps Direction</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>3</td><td>5:30 PM</td><td>Little Italy & Chinatown</td><td><a href="https://littleitalynyc.com/">Little Italy</a> / <a href="https://www.explorechinatown.com/">Chinatown</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Little+Italy+NYC">Map</a></td></tr>
-  </tbody>
-</table>
+<details>
+  <summary><strong>Neighborhood</strong></summary>
+  <table>
+    <thead>
+      <tr><th>Day</th><th>Time</th><th>Activity</th><th>Reference / Link</th><th>Google Maps Direction</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>3</td><td>5:30 PM</td><td>Little Italy & Chinatown</td><td><a href="https://littleitalynyc.com/">Little Italy</a> / <a href="https://www.explorechinatown.com/">Chinatown</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Little+Italy+NYC">Map</a></td></tr>
+    </tbody>
+  </table>
+</details>
+</div>
+<div id="transport" class="tab-content">
+  <h2>Transport Information & Pass Options</h2>
+
+  <details>
+    <summary><strong>1. Airport to NYC (Newark Liberty International Airport)</strong></summary>
+    <p><strong>Mode:</strong> Newark Airport Express Bus</p>
+    <p><strong>Cost:</strong> ~$18 one way</p>
+    <p><strong>Payment Options:</strong></p>
+    <ul>
+      <li><a href="https://www.newarkairportexpress.com/" target="_blank">Buy tickets online</a></li>
+      <li>Ticket machines at airport terminals</li>
+      <li>Mobile tickets via app (recommended)</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary><strong>2. NYC Public Transit (Subway & Buses)</strong></summary>
+    <p><strong>Mode:</strong> NYC MTA Subway & Buses</p>
+    <p><strong>Payment Options:</strong></p>
+    <ul>
+      <li><strong>OMNY:</strong> Tap credit/debit card or mobile wallet at turnstiles (no physical card needed)</li>
+      <li><strong>7-Day Unlimited MetroCard:</strong> $34 – valid for unlimited subway and local bus rides</li>
+      <li><a href="https://omny.info" target="_blank">Learn more about OMNY</a></li>
+      <li><a href="https://new.mta.info/fares" target="_blank">MetroCard & fare info</a></li>
+    </ul>
+    <p><strong>Recommendation:</strong> Use OMNY if you prefer contactless, or MetroCard if you expect 12+ rides.</p>
+  </details>
+
+  <details>
+    <summary><strong>3. NJ Transit (Day Trip to Princeton)</strong></summary>
+    <p><strong>Mode:</strong> NJ Transit Train from Penn Station</p>
+    <p><strong>Cost:</strong> ~$17 each way</p>
+    <p><strong>Payment Options:</strong></p>
+    <ul>
+      <li><a href="https://www.njtransit.com/tickets" target="_blank">Buy tickets on NJ Transit app or online</a></li>
+      <li>Vending machines at Penn Station NYC</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary><strong>4. Walking</strong></summary>
+    <p>NYC is highly walkable. Most short transfers (hotel to Times Square, Central Park to museum, etc.) are walkable.</p>
+  </details>
 </div>
 
 <script>
