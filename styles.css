@@ -7,10 +7,15 @@ body {
     background-color: #fafafa;
   }
   
-  h2 {
+  h2, #itinerary > h2, #transport > h2 {
     margin-top: 0;
     font-size: 24px;
     color: #002b5c;
+    font-weight: normal;
+    padding: 10px 14px;
+    background-color: #eaf4ff;
+    border-left: 6px solid #004080;
+    border-radius: 4px;
   }
   
   .tab-buttons {
