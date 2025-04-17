@@ -7,7 +7,7 @@ body {
     background-color: #fafafa;
   }
   
-  h2, #itinerary > h2, #transport > h2 {
+  h2, #itinerary > h2, #transport > h2, #getting-around > h2 {
     margin-top: 0;
     font-size: 24px;
     color: #002b5c;
