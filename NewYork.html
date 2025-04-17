@@ -11,16 +11,44 @@
       line-height: 1.6;
       color: #333;
     }
-    h2, h3 {
-      border-left: 5px solid #004080;
-      background-color: #f0f8ff;
+    h2 {
+      margin-top: 0;
+    }
+    .tab-buttons {
+      margin-bottom: 20px;
+    }
+    .tab-buttons button {
+      padding: 10px 15px;
+      margin-right: 5px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      background-color: #f0f0f0;
+      font-weight: bold;
+    }
+    .tab-buttons button.active {
+      background-color: #e6f0ff;
+      border-bottom: none;
+    }
+    .tab-content {
+      display: none;
+    }
+    .tab-content.active {
+      display: block;
+    }
+    details summary {
+      font-size: 16px;
+      font-weight: bold;
       padding: 8px 12px;
+      margin-top: 20px;
+      cursor: pointer;
+      background-color: #f0f8ff;
+      border-left: 5px solid #004080;
       color: #004080;
     }
     table {
       width: 100%;
       border-collapse: collapse;
-      margin: 25px 0;
+      margin: 15px 0;
       font-size: 14px;
     }
     th, td {
@@ -43,6 +71,14 @@
 </head>
 <body>
 
+<h2>Newark & NYC Trip Planner</h2>
+<div class="tab-buttons">
+  <button class="tab-link active" onclick="switchTab('itinerary')">Itinerary</button>
+  <button class="tab-link" onclick="switchTab('summary')">Activity Summary</button>
+</div>
+
+<div id="itinerary" class="tab-content active">
+<!-- Itinerary content will go here -->
 <h2>Newark & NYC Trip Itinerary (April 17–21)</h2>
 <p><strong>Hotel:</strong> <a href="https://www.google.com/maps/dir/?api=1&destination=414+W+46th+St,+New+York,+NY+10036">414 W 46th St, Hell’s Kitchen, New York, NY 10036</a></p>
 <p><strong>Preferred Transport:</strong> Public Transit & Bus</p>
@@ -140,10 +176,9 @@
     <tr><td>4:15 PM</td><td>—</td><td>Flight to Toronto</td><td>Transport</td><td>—</td><td>Arrive at airport by ~2:15 PM</td><td>—</td></tr>
   </tbody>
 </table>
-<!-- Due to size, we will rebuild each day table incrementally using current Markdown source converted into full HTML table rows with Duration column as second cell -->
-
-<!-- Note: This placeholder HTML will now need to be replaced piece-by-piece from actual Markdown canvas. Let me know if you'd like to start exporting day-by-day now into HTML format. -->
-
+</div>
+<div id="summary" class="tab-content">
+<!-- Summary content will go here -->
 <h2>Summary of Activities by Type</h2>
 
 <h3>Meal</h3>
@@ -252,6 +287,18 @@
     <tr><td>3</td><td>5:30 PM</td><td>Little Italy & Chinatown</td><td><a href="https://littleitalynyc.com/">Little Italy</a> / <a href="https://www.explorechinatown.com/">Chinatown</a></td><td><a href="https://www.google.com/maps/dir/?api=1&destination=Little+Italy+NYC">Map</a></td></tr>
   </tbody>
 </table>
+</div>
+
+<script>
+function switchTab(tabId) {
+  const contents = document.querySelectorAll('.tab-content');
+  const buttons = document.querySelectorAll('.tab-link');
+  contents.forEach(c => c.classList.remove('active'));
+  buttons.forEach(b => b.classList.remove('active'));
+  document.getElementById(tabId).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>
 
 </body>
 </html>
