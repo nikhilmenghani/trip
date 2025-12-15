@@ -9,10 +9,30 @@
 
 <h2>Newark & NYC Trip Planner</h2>
 <div class="tab-buttons">
-  <button class="tab-link active" onclick="switchTab('itinerary')">Itinerary</button>
-  <button class="tab-link" onclick="switchTab('summary')">Activity Summary</button>
-  <button class="tab-link" onclick="switchTab('transport')">Transport</button>
-  <button class="tab-link" onclick="switchTab('getting-around')">Getting Around</button>
+  <button class="tab-link active"
+        data-tab="itinerary"
+        onclick="switchTab('itinerary')"
+        aria-selected="true">
+  Itinerary
+</button>
+  <button class="tab-link"
+        data-tab="summary"
+        onclick="switchTab('summary')"
+        aria-selected="false">
+  Activity Summary
+</button>
+  <button class="tab-link"
+        data-tab="transport"
+        onclick="switchTab('transport')"
+        aria-selected="false">
+  Transport
+</button>
+  <button class="tab-link"
+        data-tab="getting-around"
+        onclick="switchTab('getting-around')"
+        aria-selected="false">
+  Getting Around
+</button>
 </div>
 
 <div id="itinerary" class="tab-content active">
